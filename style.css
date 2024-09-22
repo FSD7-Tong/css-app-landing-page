@@ -1,8 +1,76 @@
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  background-color: #f6f6fb;
 }
+/*------------------- dev1 : Nav Bar  -------------------*/
+.container-nav {
+  display: flex;
+  padding: 24px;
+  gap: 10px;
+  height: 128px;
+  max-width: 1440px;
+  width: 100%;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-between;
+  align-items: center;
+  border: 0px 0px 1px 0px;
+  border-radius: 99px;
+  padding: 12px 80px;
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  background-color: transparent;
+  justify-items: center;
+  width: 91.67px;
+  height: 40px;
+}
+.nav-wrapper {
+  display: flex;
+  background-color: transparent;
+  width: fit-content;
+  height: fit-content;
+
+  align-items: center;
+}
+
+.nav-link {
+  padding: 16px 24px;
+  align-content: center;
+  background-color: transparent;
+  width: fit-content;
+  height: fit-content;
+  gap: 10px;
+}
+
+.nav-link a:hover {
+  text-decoration: underline #5e44ff;
+  color: #5e44ff;
+}
+
+.nav-link a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+  background-color: transparent;
+  gap: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: 24px;
+}
+
 /*------------------- dev2 : feature section -------------------*/
 .feature-group {
   display: flex;
